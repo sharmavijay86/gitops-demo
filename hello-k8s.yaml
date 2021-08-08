@@ -41,8 +41,8 @@ metadata:
       cert-manager.io/issuer: mylab
     name: nginx-test
 spec:
-    rules:
-      - host: demo.caedev.gks.vodafone.com
+    rules
+      - host: demo.k8s.mevijay.dev
         http:
           paths:
             - backend:
@@ -51,6 +51,6 @@ spec:
               path: /
     tls:
     - hosts:
-       - demo.caedev.gks.vodafone.com
+       - demo.k8s.mevijay.dev
       secretName: hello-tls
 
