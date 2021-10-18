@@ -31,7 +31,7 @@ spec:
         - containerPort: 8080
         env:
           - name: MESSAGE
-            value: Hello from git 
+            value: Hello from git again 
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress
