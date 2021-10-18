@@ -41,7 +41,7 @@ metadata:
       cert-manager.io/cluster-issuer: mylab
     name: nginx-test
 spec:
-    rules
+    rules:
       - host: demo.k8s.mevijay.dev
         http:
           paths:
