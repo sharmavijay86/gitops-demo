@@ -38,7 +38,7 @@ kind: Ingress
 metadata:
     annotations:
       kubernetes.io/ingress.class: nginx
-      cert-manager.io/cluster-issuer: mylab
+      cert-manager.io/cluster-issuer: le-issuer
     name: nginx-test
 spec:
     rules:
